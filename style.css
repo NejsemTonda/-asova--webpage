@@ -1,0 +1,104 @@
+body {
+      background: #000000;
+      margin: 0;
+	  padding: 0;
+	  overflow-x: hidden;
+}
+
+h1 {
+	color: white;
+	background-color: black;
+	text-align: center;
+	font-size: 100px;
+	letter-spacing: 15px;
+	font-family: 'Dosis', sans-serif;
+}
+
+.break {
+	margin-bottom: 500px
+}
+
+button {
+	background-color: transparent;
+	border: none;
+}
+
+
+.main {
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.concerts-container {
+	overflow: hidden;
+	position: relative;
+}
+
+.concert-list {
+	display: flex;
+	transition: transform 0.5s ease;
+}
+
+.concert {
+	flex: 0 0 100%;
+	box-sizing: boreder-box;
+	padding: 20px;
+}
+.concert-box {
+	gap: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.concerts {
+	display: flex;
+	gap: 50px;
+	justify-content: space-between;
+	color: white;
+	font-size: 30px;
+}
+
+.visible {
+  	visibility: visible;
+  	opacity: 1;
+  	transition: opacity 0.5s linear;
+}
+
+.hidden {
+	visibility: hidden;
+  	opacity: 0;
+  	transition: visibility 0s 0.5s, opacity 0.5s linear;
+}
+
+iframe {
+	background-color: transparent;
+	border: none;
+}
+
+.videos {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+td:first-child {
+	text-align: center;
+}
+
+td:last-child {
+	text-align: left;
+}
+.concert-image {
+	object-fit: cover;
+	width: 600px;
+	height: 100%;
+}
+
+.arrow {
+	flex: 0.1
+} 
+
+#left-arrow {
+ 	transform: scaleX(-1);
+}
